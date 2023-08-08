@@ -18,35 +18,35 @@ namespace CasgemMicroservice.Services.Catalog.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetCategoryList()
+        public async Task<IActionResult> GetProductList()
         {
             var values = await _productService.GetAllProductAsync();
             return Ok(values);
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetCategoryById(string id)
+        public async Task<IActionResult> GetProductById(string id)
         {
             var values = await _productService.GetByIdProductAsync(id);
             return Ok(values);
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateCategory(CreateProductDto createProductDto)
+        public async Task<IActionResult> CreateProduct(CreateProductDto createProductDto)
         {
             await _productService.CreateProductAsync(createProductDto);
             return Ok();
         }
 
         [HttpDelete]
-        public async Task<IActionResult> DeleteCategory(string id)
+        public async Task<IActionResult> DeleteProduct(string id)
         {
             await _productService.DeleteProductAsync(id);
             return Ok();
         }
 
         [HttpPut]
-        public async Task<IActionResult> UpdateCategory(UpdateProductDto updateProductDto)
+        public async Task<IActionResult> UpdateProduct(UpdateProductDto updateProductDto)
         {
             await _productService.UpdateProductAsync(updateProductDto);
             return Ok();
