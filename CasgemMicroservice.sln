@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Getaways", "Getaways", "{C0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityService", "IdentityService", "{AD9F7D56-E565-403D-98F6-E1F8D11EC13F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasgemMicroservice.IdentityServer", "IdentityServer\CasgemMicroservice.IdentityServer\CasgemMicroservice.IdentityServer.csproj", "{5F9C459B-AF7E-4687-BA4E-F7C33B503A4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3C187B79-8023-4AB8-9426-C706295AC8E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C187B79-8023-4AB8-9426-C706295AC8E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C187B79-8023-4AB8-9426-C706295AC8E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F9C459B-AF7E-4687-BA4E-F7C33B503A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F9C459B-AF7E-4687-BA4E-F7C33B503A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F9C459B-AF7E-4687-BA4E-F7C33B503A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F9C459B-AF7E-4687-BA4E-F7C33B503A4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +53,7 @@ Global
 		{DFCBABAF-7951-42D4-AD0E-11FBD29BCB88} = {E8989180-F0D7-491C-A1DB-3691AA2F21A8}
 		{8F90E5E3-B7C9-4986-ABB4-EDAF07C8E2EF} = {DFCBABAF-7951-42D4-AD0E-11FBD29BCB88}
 		{3C187B79-8023-4AB8-9426-C706295AC8E8} = {ABB6FAAB-A3E2-4091-A786-807CADEDB92D}
+		{5F9C459B-AF7E-4687-BA4E-F7C33B503A4D} = {AD9F7D56-E565-403D-98F6-E1F8D11EC13F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C96B4A0-A4E4-478E-A3B3-A5A85C754661}
