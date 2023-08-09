@@ -7,11 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{DFCBABAF-7951-42D4-AD0E-11FBD29BCB88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasgemMicroservice.Services.Catalog", "Services\Catalog\CasgemMicroservice.Services.Catalog\CasgemMicroservice.Services.Catalog.csproj", "{8F90E5E3-B7C9-4986-ABB4-EDAF07C8E2EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasgemMicroservice.Services.Catalog", "Services\Catalog\CasgemMicroservice.Services.Catalog\CasgemMicroservice.Services.Catalog.csproj", "{8F90E5E3-B7C9-4986-ABB4-EDAF07C8E2EF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{ABB6FAAB-A3E2-4091-A786-807CADEDB92D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasgemMicroservice.Shared", "Shared\CasgemMicroservice.Shared\CasgemMicroservice.Shared.csproj", "{3C187B79-8023-4AB8-9426-C706295AC8E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasgemMicroservice.Shared", "Shared\CasgemMicroservice.Shared\CasgemMicroservice.Shared.csproj", "{3C187B79-8023-4AB8-9426-C706295AC8E8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{7281647A-C848-440E-9DD7-6DCAD9A8A9E2}"
 	ProjectSection(SolutionItems) = preProject
@@ -26,6 +26,14 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityService", "IdentityService", "{AD9F7D56-E565-403D-98F6-E1F8D11EC13F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasgemMicroservice.IdentityServer", "IdentityServer\CasgemMicroservice.IdentityServer\CasgemMicroservice.IdentityServer.csproj", "{5F9C459B-AF7E-4687-BA4E-F7C33B503A4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", "{4DD2987A-509A-4A84-8D45-7858BBF25B3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasgemMicroservice.PhotoStock", "Services\PhotoStock\CasgemMicroservice.PhotoStock\CasgemMicroservice.PhotoStock.csproj", "{7A59350E-D43B-40AC-BDFD-AB53B9C175C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{3882655F-4A45-4806-A6DE-9E5E8127A774}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasgemMicroservice.Services.Basket", "Services\Basket\CasgemMicroservice.Services.Basket\CasgemMicroservice.Services.Basket.csproj", "{70BCCB64-6DD0-41E2-90BC-059CEB8A7B41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +53,14 @@ Global
 		{5F9C459B-AF7E-4687-BA4E-F7C33B503A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F9C459B-AF7E-4687-BA4E-F7C33B503A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F9C459B-AF7E-4687-BA4E-F7C33B503A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A59350E-D43B-40AC-BDFD-AB53B9C175C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A59350E-D43B-40AC-BDFD-AB53B9C175C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A59350E-D43B-40AC-BDFD-AB53B9C175C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A59350E-D43B-40AC-BDFD-AB53B9C175C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70BCCB64-6DD0-41E2-90BC-059CEB8A7B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70BCCB64-6DD0-41E2-90BC-059CEB8A7B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70BCCB64-6DD0-41E2-90BC-059CEB8A7B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70BCCB64-6DD0-41E2-90BC-059CEB8A7B41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +70,10 @@ Global
 		{8F90E5E3-B7C9-4986-ABB4-EDAF07C8E2EF} = {DFCBABAF-7951-42D4-AD0E-11FBD29BCB88}
 		{3C187B79-8023-4AB8-9426-C706295AC8E8} = {ABB6FAAB-A3E2-4091-A786-807CADEDB92D}
 		{5F9C459B-AF7E-4687-BA4E-F7C33B503A4D} = {AD9F7D56-E565-403D-98F6-E1F8D11EC13F}
+		{4DD2987A-509A-4A84-8D45-7858BBF25B3A} = {E8989180-F0D7-491C-A1DB-3691AA2F21A8}
+		{7A59350E-D43B-40AC-BDFD-AB53B9C175C8} = {4DD2987A-509A-4A84-8D45-7858BBF25B3A}
+		{3882655F-4A45-4806-A6DE-9E5E8127A774} = {E8989180-F0D7-491C-A1DB-3691AA2F21A8}
+		{70BCCB64-6DD0-41E2-90BC-059CEB8A7B41} = {3882655F-4A45-4806-A6DE-9E5E8127A774}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C96B4A0-A4E4-478E-A3B3-A5A85C754661}
