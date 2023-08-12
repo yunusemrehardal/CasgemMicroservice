@@ -1,0 +1,21 @@
+﻿using CasgemMicroservice.Services.Order.Core.Application.Dtos.AddressDtos;
+using CasgemMicroservice.Services.Order.Core.Domain.Entities;
+using MediatR;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CasgemMicroservice.Services.Order.Core.Application.Features.CQRS.Queries
+{
+    public class GetByIdAddressQueryRequest :IRequest<ResultAddressDto>
+    {
+        public int Id { get; set; }
+
+        public GetByIdAddressQueryRequest(int id)
+        {
+            Id = id;
+        }
+    }
+}
