@@ -18,9 +18,15 @@ namespace CasgemMicroservice.Services.Order.Core.Application.Features.CQRS.Handl
         {
             _repository = repository;
         }
-        public Task Handle(UpdateOrderDetailCommandRequest request, CancellationToken cancellationToken)
+        public async Task Handle(UpdateOrderDetailCommandRequest request, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            var values = await _repository.GetByIdAsync(request.OrderDetailID);
+            values.ProductID = request.ProductID;
+            values.ProductName = request.ProductName;
+            values.ProductPrice = request.ProductPrice;
+            values.ProductAmount = request.ProductAmount;
+            values.OrderingID = request.OrderingID;
+            await _repository.UpdateAsync(values);
         }
     }
 }
