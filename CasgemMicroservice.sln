@@ -57,13 +57,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasgemMicroservice.Services
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cargo", "Cargo", "{F7B6D3F1-0083-4498-9A9D-C4CF12CCCBA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasgemMicroservice.Services.Cargo.BusinessLayer", "Services\Cargo\CasgemMicroservice.Services.Cargo.BusinessLayer\CasgemMicroservice.Services.Cargo.BusinessLayer.csproj", "{DD7C0D03-24A9-4153-A4C6-DB7E665385C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasgemMicroservice.Services.Cargo.BusinessLayer", "Services\Cargo\CasgemMicroservice.Services.Cargo.BusinessLayer\CasgemMicroservice.Services.Cargo.BusinessLayer.csproj", "{DD7C0D03-24A9-4153-A4C6-DB7E665385C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasgemMicroservice.Services.Cargo.DataAccessLayer", "Services\Cargo\CasgemMicroservice.Services.Cargo.DataAccessLayer\CasgemMicroservice.Services.Cargo.DataAccessLayer.csproj", "{E1F1A7A2-54F7-4CED-827D-BFAA9459FC2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasgemMicroservice.Services.Cargo.DataAccessLayer", "Services\Cargo\CasgemMicroservice.Services.Cargo.DataAccessLayer\CasgemMicroservice.Services.Cargo.DataAccessLayer.csproj", "{E1F1A7A2-54F7-4CED-827D-BFAA9459FC2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasgemMicroservice.Services.Cargo.EntityLayer", "Services\Cargo\CasgemMicroservice.Services.Cargo.EntityLayer\CasgemMicroservice.Services.Cargo.EntityLayer.csproj", "{5714C0B6-0172-4527-866A-D52EB681ADA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasgemMicroservice.Services.Cargo.EntityLayer", "Services\Cargo\CasgemMicroservice.Services.Cargo.EntityLayer\CasgemMicroservice.Services.Cargo.EntityLayer.csproj", "{5714C0B6-0172-4527-866A-D52EB681ADA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasgemMicroservice.Services.Cargo.WebApi", "Services\Cargo\CasgemMicroservice.Services.Cargo.WebApi\CasgemMicroservice.Services.Cargo.WebApi.csproj", "{1F098DF9-C017-43C4-8B79-7524A8B7A6AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasgemMicroservice.Services.Cargo.WebApi", "Services\Cargo\CasgemMicroservice.Services.Cargo.WebApi\CasgemMicroservice.Services.Cargo.WebApi.csproj", "{1F098DF9-C017-43C4-8B79-7524A8B7A6AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payment", "Payment", "{E65C11E4-FD37-4EC8-956E-10A8BBF1B029}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasgemMicroservice.Services.Payment.WebApi", "Services\Payment\CasgemMicroservice.Services.Payment.WebApi\CasgemMicroservice.Services.Payment.WebApi.csproj", "{5A5DE88A-7273-4042-AF52-3F839146BE77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -127,6 +131,10 @@ Global
 		{1F098DF9-C017-43C4-8B79-7524A8B7A6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F098DF9-C017-43C4-8B79-7524A8B7A6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F098DF9-C017-43C4-8B79-7524A8B7A6AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A5DE88A-7273-4042-AF52-3F839146BE77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A5DE88A-7273-4042-AF52-3F839146BE77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A5DE88A-7273-4042-AF52-3F839146BE77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A5DE88A-7273-4042-AF52-3F839146BE77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -155,6 +163,8 @@ Global
 		{E1F1A7A2-54F7-4CED-827D-BFAA9459FC2A} = {F7B6D3F1-0083-4498-9A9D-C4CF12CCCBA5}
 		{5714C0B6-0172-4527-866A-D52EB681ADA3} = {F7B6D3F1-0083-4498-9A9D-C4CF12CCCBA5}
 		{1F098DF9-C017-43C4-8B79-7524A8B7A6AE} = {F7B6D3F1-0083-4498-9A9D-C4CF12CCCBA5}
+		{E65C11E4-FD37-4EC8-956E-10A8BBF1B029} = {E8989180-F0D7-491C-A1DB-3691AA2F21A8}
+		{5A5DE88A-7273-4042-AF52-3F839146BE77} = {E65C11E4-FD37-4EC8-956E-10A8BBF1B029}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C96B4A0-A4E4-478E-A3B3-A5A85C754661}
