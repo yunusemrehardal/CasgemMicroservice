@@ -19,6 +19,7 @@ namespace CasgemMicroservice.IdentityServer
             new ApiResource("resource_order"){Scopes={"order_fullpermission"}},
             new ApiResource("resource_cargo"){Scopes={"cargo_fullpermission"}},
             new ApiResource("resource_payment"){Scopes={"payment_fullpermission"}},
+            new ApiResource("resource_gateway"){Scopes={"gateway_fullpermission"}},
                 new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
         };
 
@@ -40,6 +41,7 @@ namespace CasgemMicroservice.IdentityServer
                 new ApiScope("order_fullpermission","Sipariş işlemleri için tam erişim"),
                 new ApiScope("cargo_fullpermission","Kargo işlemleri için tam erişim"),
                 new ApiScope("payment_fullpermission","Ödeme işlemleri için tam erişim"),
+                new ApiScope("gateway_fullpermission","Gateway Api işlemleri için tam erişim"),
                 new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
             };
 
@@ -57,6 +59,7 @@ namespace CasgemMicroservice.IdentityServer
                     {
                         "catalog_fullpermission",
                         "photostock_fullpermission",
+                        "gateway_fullpermission",
                         IdentityServerConstants.LocalApi.ScopeName
                     }
                 },
@@ -68,7 +71,7 @@ namespace CasgemMicroservice.IdentityServer
                     ClientName = "Casgem 2 Client Name",
                     AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
                     AllowOfflineAccess = true,
-                    AllowedScopes = { "catalog_fullpermission", "photostock_fullpermission", "basket_fullpermission", "discount_fullpermission", "order_fullpermission", "cargo_fullpermission", "payment_fullpermission",
+                    AllowedScopes = { "catalog_fullpermission", "photostock_fullpermission", "basket_fullpermission", "discount_fullpermission", "order_fullpermission", "cargo_fullpermission", "payment_fullpermission", "gateway_fullpermission",
                         IdentityServerConstants.LocalApi.ScopeName, IdentityServerConstants.StandardScopes.Email, IdentityServerConstants.StandardScopes.OpenId,
                     IdentityServerConstants.StandardScopes.Profile},
                     AccessTokenLifetime=3600
